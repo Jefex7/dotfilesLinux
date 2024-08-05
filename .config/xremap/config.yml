@@ -1,0 +1,16 @@
+modmap:
+  - name: Global
+    remap:
+      # CapsLock -> Esc
+      CapsLock:
+        held: leftctrl
+        alone: esc
+
+keymap:
+  - name: shortcuts
+    remap:
+      C-j: Down
+      C-k: Up
+      C-l: Right
+      C-h: Left
+
